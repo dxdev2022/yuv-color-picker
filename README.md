@@ -4,6 +4,7 @@
 YUV color picker implemented with webgpu. 
 
 It shows colors with the same grayscale value. You can enable "ignore different grayscale" to see the original YUV color plane. This color picker might be helpful to those like me who struggle with selecting colors during their painting.
+
 ![YUV Color Picker](images/yuv-color-picker1.png "YUV Color Picker1")
 
 ![YUV Color Picker](images/yuv-color-picker2.png "YUV Color Picker2")
