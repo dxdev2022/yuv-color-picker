@@ -1,0 +1,30 @@
+{
+  "name": "yuv-color-picker",
+  "version": "1.0.7",
+  "description": "yuv color picker implemented with webgpu",
+  "main": "YUVColorPicker.js",
+  "type": "module",
+  "files": [
+    "YUVColorPicker.js",
+    "images/yuv-color-picker1.png",
+    "images/yuv-color-picker2.png"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dxdev2022/yuv-color-picker.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color",
+    "picker",
+    "webgpu",
+    "grayscale",
+    "rgb",
+    "yuv",
+    "yuv-color-picker"
+  ],
+  "author": "dxdev2022",
+  "license": "MIT"
+}
