@@ -628,9 +628,9 @@ class YUVColorPicker {
   updateCanvas() {
 
 
-    console.log("this.canvases", this.canvases);
+    //console.log("this.canvases", this.canvases);
     // console.log("this.switch_show_all", this.hide_different_grayscale);
-    console.log("this.yuv_y", this.yuv_y);
+    //console.log("this.yuv_y", this.yuv_y);
     this.canvases['c_uv'].uniformValues.set([this.ignore_different_grayscale, this.different_grayscale_tolerance, this.yuv_y / 255]);
     this.device.queue.writeBuffer(this.canvases['c_uv'].uniformBuffer, 0, this.canvases['c_uv'].uniformValues);
     this.renderCanvas(this.canvases['c_uv']);
