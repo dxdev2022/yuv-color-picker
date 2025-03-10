@@ -1,6 +1,6 @@
 {
   "name": "yuv-color-picker",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "description": "yuv color picker implemented with webgpu",
   "main": "YUVColorPicker.js",
   "type": "module",
